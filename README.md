@@ -403,3 +403,15 @@ root@LiveCD ~]find / -name "libmount*"
 /System/Index/lib/libmount.so.1.1.0
 
 ```
+
+### Extracted downloaded archive of Util-Linux 
+```
+root@LiveCD ~]find /Data/Compile/Archives/ -name "libmount*"
+/Data/Compile/Archives/util-linux-2.35.1/libmount
+/Data/Compile/Archives/util-linux-2.35.1/libmount/src/libmount.h.in
+/Data/Compile/Archives/util-linux-2.35.1/libmount/src/libmount.sym
+/Data/Compile/Archives/util-linux-2.35.1/libmount/docs/libmount-sections.txt
+/Data/Compile/Archives/util-linux-2.35.1/libmount/docs/libmount-docs.xml
+/Data/Compile/Archives/util-linux-2.35.1/tests/expected/libmount
+/Data/Compile/Archives/util-linux-2.35.1/tests/ts/libmount
+```
