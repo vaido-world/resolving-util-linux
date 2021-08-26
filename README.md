@@ -354,3 +354,16 @@ cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-d
 cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
 
 ```
+
+
+
+## After reinstalling Util-Linux
+```
+root@LiveCD ~]find / -name "libmount"
+/Data/Compile/Sources/util-linux-2.35.1/libmount
+/Data/Compile/Sources/util-linux-2.35.1/tests/expected/libmount
+/Data/Compile/Sources/util-linux-2.35.1/tests/ts/libmount
+/Data/Variable/run/overlayfs/Data/Compile/Sources/util-linux-2.35.1/libmount
+/Data/Variable/run/overlayfs/Data/Compile/Sources/util-linux-2.35.1/tests/expected/libmount
+/Data/Variable/run/overlayfs/Data/Compile/Sources/util-linux-2.35.1/tests/ts/libmount
+```
