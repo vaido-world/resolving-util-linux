@@ -1,5 +1,7 @@
 # resolving-util-linux
-
+Util-Linux seems to be broken on GoboLinux 17 LiveCD  
+There are missing files such as `/Programs/Util-Linux/2.35.1/include/libmount`  
+Reinstalling or Recompilling should resolve it.  
 ```
 curl -L "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2" -O
 InstallPackage "Util-Linux--2.35.1--x86_64.tar.bz2"
