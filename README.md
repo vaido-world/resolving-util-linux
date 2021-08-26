@@ -22,6 +22,12 @@ https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L2
     done
 ```
 
+### Before Reinstalling Utils-Linux
+
+```
+root@LiveCD ~]find / -name "libmount"
+root@LiveCD ~]
+```
 
 ```
 root@LiveCD ~]find / -name "blkid"  
@@ -37,6 +43,8 @@ root@LiveCD ~]find / -name "blkid"
 root@LiveCD ~]find / -name "catalog"
 
 ```
+
+
 
 ```
 ls
