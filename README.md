@@ -415,3 +415,15 @@ root@LiveCD ~]find /Data/Compile/Archives/ -name "libmount*"
 /Data/Compile/Archives/util-linux-2.35.1/tests/expected/libmount
 /Data/Compile/Archives/util-linux-2.35.1/tests/ts/libmount
 ```
+
+### Content of the Util-Linux downloaded archive, used by the Util-Linux Recipe itself
+```
+root@LiveCD /Data/Compile/Archives/util-linux-2.35.1]ls
+ABOUT-NLS        config.h.in    lib           m4           README.licensing
+aclocal.m4       configure      libblkid      Makefile.am  schedutils
+AUTHORS          configure.ac   libfdisk      Makefile.in  sys-utils
+autogen.sh       COPYING        libmount      misc-utils   term-utils
+bash-completion  disk-utils     libsmartcols  NEWS         tests
+ChangeLog        Documentation  libuuid       po           text-utils
+config           include        login-utils   README       tools
+```
