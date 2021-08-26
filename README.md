@@ -7,6 +7,21 @@ blkid command seems to be accessible from command line.
 https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L28
 
 ```
+    # Fix broken links
+    cd /Programs/Util-Linux/2.35.1/lib
+    for i in \
+    libblkid.so \
+    libfdisk.so \
+    libmount.so \
+    libsmartcols.so \
+    libuuid.so
+    do
+       # Point to the same target as ${i}.1
+       ln -sf $(readlink ${i}.1) $i
+    done
+```
+
+```
 ls
 addpart      fsck.minix   mkfs          swapoff
 agetty       fsfreeze     mkfs.bfs      swapon
