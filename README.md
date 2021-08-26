@@ -380,3 +380,26 @@ root@LiveCD ~]find / -name "libmount"
 # libmount is part of util-linux
 libmount is part of the util-linux package since version 2.18 and is available from
 https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.18/
+
+
+# libmount before Compile Util-Linux
+```
+root@LiveCD ~]find / -name "libmount*"  
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/lib/libmount.a
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/lib/libmount.so
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/lib/libmount.so.1
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/lib/libmount.so.1.1.0
+/Data/Variable/run/rootfsbase/System/Index/lib/libmount.a
+/Data/Variable/run/rootfsbase/System/Index/lib/libmount.so
+/Data/Variable/run/rootfsbase/System/Index/lib/libmount.so.1
+/Data/Variable/run/rootfsbase/System/Index/lib/libmount.so.1.1.0
+/Programs/Util-Linux/2.35.1/lib/libmount.a
+/Programs/Util-Linux/2.35.1/lib/libmount.so
+/Programs/Util-Linux/2.35.1/lib/libmount.so.1
+/Programs/Util-Linux/2.35.1/lib/libmount.so.1.1.0
+/System/Index/lib/libmount.a
+/System/Index/lib/libmount.so
+/System/Index/lib/libmount.so.1
+/System/Index/lib/libmount.so.1.1.0
+
+```
