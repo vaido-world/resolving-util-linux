@@ -58,3 +58,274 @@ fsck         mesg         sulogin       XFWM4.tar.gz
 fsck.cramfs  Metare.bash  swaplabel     zramctl
 
 ```
+
+
+
+## Error in Thunar
+```
+Programs/Make/4.3/bin/make  all-recursive
+make[1]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9'
+Making all in icons
+make[2]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons'
+Making all in 16x16
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/16x16'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/16x16'
+Making all in 24x24
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/24x24'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/24x24'
+Making all in 48x48
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/48x48'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/48x48'
+Making all in 64x64
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/64x64'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/64x64'
+Making all in 128x128
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/128x128'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/128x128'
+Making all in scalable
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons/scalable'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons/scalable'
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/icons'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons'
+make[2]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/icons'
+Making all in pixmaps
+make[2]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/pixmaps'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/pixmaps'
+Making all in po
+make[2]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/po'
+  MSGFMT am.gmo
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa_IR.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT hy_AM.gmo
+  MSGFMT hy.gmo
+  MSGFMT id.gmo
+  MSGFMT ie.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/po'
+Making all in thunarx
+make[2]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/thunarx'
+  CC       libthunarx_3_la-thunarx-config.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-file-info.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-menu.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-menu-item.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-menu-provider.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-preferences-provider.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-private.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-property-page.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-property-page-provider.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-provider-factory.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-provider-module.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-provider-plugin.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-renamer.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       libthunarx_3_la-thunarx-renamer-provider.lo
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CCLD     libthunarx-3.la
+  GISCAN   Thunarx-3.0.gir
+cc1: warning: /System/Index/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /System/Index/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /System/Index/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /System/Index/include/blkid: No such file or directory [-Wmissing-include-dirs]
+thunarx-private.h:36: Warning: Thunarx: symbol='I_': Unknown namespace for symbol 'I_'
+  GICOMP   Thunarx-3.0.gir
+make[2]: Leaving directory '/Data/Compile/Sources/Thunar-1.8.9/thunarx'
+Making all in thunar
+make[2]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/thunar'
+/Programs/Make/4.3/bin/make  all-am
+make[3]: Entering directory '/Data/Compile/Sources/Thunar-1.8.9/thunar'
+  CC       thunar-thunar-marshal.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       thunar-thunar-dbus-freedesktop-interfaces.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       thunar-thunar-dbus-service-infos.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       thunar-thunar-thumbnailer-proxy.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       thunar-thunar-thumbnail-cache-proxy.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+  CC       thunar-thunar-resources.o
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/blkid: No such file or directory [-Wmissing-include-dirs]
+cc1: warning: /usr/include/libmount: No such file or directory [-Wmissing-include-dirs]
+
+```
