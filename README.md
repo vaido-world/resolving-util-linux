@@ -376,3 +376,7 @@ root@LiveCD ~]find / -name "libmount"
 /System/Index/lib/python3.8/site-packages/libmount
 
 ```
+
+# libmount is part of util-linux
+libmount is part of the util-linux package since version 2.18 and is available from
+https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.18/
