@@ -1,5 +1,10 @@
 # resolving-util-linux
 
+```
+curl -L "https://github.com/vaido-world/resolving-util-linux/raw/main/Util-Linux--2.35.1--x86_64.tar.bz2" -O
+InstallPackage "Util-Linux--2.35.1--x86_64.tar.bz2"
+```
+
 GoboLinux 017 Live CD seems to contain preinstalled Util-Linux 2.35.1
 
 blkid command seems to be accessible from command line.
