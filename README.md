@@ -6,6 +6,7 @@ blkid command seems to be accessible from command line.
 
 https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L28
 
+
 ```
     # Fix broken links
     cd /Programs/Util-Linux/2.35.1/lib
@@ -19,6 +20,11 @@ https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L2
        # Point to the same target as ${i}.1
        ln -sf $(readlink ${i}.1) $i
     done
+```
+
+
+```
+find / -name "catalog"
 ```
 
 ```
