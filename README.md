@@ -4,6 +4,8 @@ GoboLinux 017 Live CD seems to contain preinstalled Util-Linux 2.35.1
 
 blkid command seems to be accessible from command line.
 
+https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L28
+
 ```
 ls
 addpart      fsck.minix   mkfs          swapoff
