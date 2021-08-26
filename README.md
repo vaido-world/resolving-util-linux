@@ -24,7 +24,18 @@ https://github.com/gobolinux/Recipes/blob/master/Util-Linux/2.35.1/Recipe#L16-L2
 
 
 ```
-find / -name "catalog"
+root@LiveCD ~]find / -name "blkid"  
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/bin/blkid
+/Data/Variable/run/rootfsbase/Programs/Util-Linux/2.35.1/share/bash-completion/completions/blkid
+/Data/Variable/run/rootfsbase/System/Index/bin/blkid
+/Data/Variable/run/rootfsbase/System/Index/share/bash-completion/completions/blkid
+/Data/Variable/run/blkid
+/Programs/Util-Linux/2.35.1/bin/blkid
+/Programs/Util-Linux/2.35.1/share/bash-completion/completions/blkid
+/System/Index/bin/blkid
+/System/Index/share/bash-completion/completions/blkid
+root@LiveCD ~]find / -name "catalog"
+
 ```
 
 ```
